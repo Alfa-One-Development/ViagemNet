@@ -4,7 +4,7 @@ function Lisboa() {
     return (
         <div>
 
-<img src={FotoLisba}/>
+            <img src={FotoLisba} />
 
             <h1>Lisboa🌆</h1>
 
@@ -15,15 +15,19 @@ function Lisboa() {
                 Com um clima ameno e vistas deslumbrantes, Lisboa é um destino que encanta a todos que a visitam.</p>
 
             <h2>O que fazer 3 dias em Lisboa?</h2>
-
-            <p>Dia 1
-                Pode ir ao bairro Alfama, onde irá passar por ruas estreitas e visitar a Catedral de Lisboa, Logo em seguida vá para o Castelo de São Jorge para visitar as muralhas e ver uma bela vista.
-
-                Dia 2
-                Visite a Torre de Bélem ou o Mosteiro dos Jerónimos, e não deixe de experimentar os pasteis de belém e de nata, Mais tarde explore o Museu Calouste Gulbenkian, pela noite pode ir para o bairro alto conecido pela sua famosa vibe noturna.
-
-                Dia 3
-                Comece o dia visitando o Parque das Nações, onde ira conseguir explorar o aquario de Lisboa, mais tarde visite o Pavilhão do Conhecimento, no fim da viajem para relaxar jante em algum restaurante com vista para o rio.</p>
+            <ul>
+                <li> Dia 1 :
+                    Pode ir ao bairro Alfama, onde irá passar por ruas estreitas e visitar a Catedral de Lisboa, Logo em seguida vá para o Castelo de São Jorge para visitar as muralhas e ver uma bela vista.
+                </li>
+                <li>
+                    Dia 2 :
+                    Visite a Torre de Bélem ou o Mosteiro dos Jerónimos, e não deixe de experimentar os pasteis de belém e de nata, Mais tarde explore o Museu Calouste Gulbenkian, pela noite pode ir para o bairro alto conecido pela sua famosa vibe noturna.
+                </li>
+                <li>
+                    Dia 3 :
+                    Comece o dia visitando o Parque das Nações, onde ira conseguir explorar o aquario de Lisboa, mais tarde visite o Pavilhão do Conhecimento, no fim da viajem para relaxar jante em algum restaurante com vista para o rio.
+                </li>
+            </ul>
         </div>
     )
 }
