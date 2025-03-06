@@ -1,22 +1,44 @@
 import { Link } from "react-router-dom";
+import "../styles/NavBar.css"
 function NavBar() {
     return (
         <nav>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                <Link to="/">
+                    <h3>🏠</h3>
+                    <h6>Home</h6>
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/balneario">Página da Amizade</Link>
+                    <Link to="/balneario">
+                    <h3>🚤</h3>
+                    <h6>Balneário Camburiú</h6>
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/lisboa">Página da Proatividade</Link>
+                <Link to="/lisboa">
+                    <h3>🛵</h3>
+                    <h6>Lisboa</h6>
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/novadeli">Página da União</Link>
+                <Link to="/novadeli">
+                    <h3>🚲</h3>
+                    <h6>Nova Deli</h6>
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/novadeli">Página da União</Link>
+                <Link to="/indianapolis">
+                    <h3>🛫</h3>
+                    <h6>Indianápolis</h6>
+                    </Link>
+                </li>
+                <li>
+                <Link to="/luanda">
+                    <h3>🛺</h3>
+                    <h6>Luanda</h6>
+                    </Link>
                 </li>
             </ul>
         </nav>

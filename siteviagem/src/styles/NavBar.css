@@ -1,0 +1,33 @@
+nav {
+    background-color: darkcyan;
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 1vw;
+        margin: 0;
+    }
+
+    li:hover{
+        background-color: aliceblue;
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        background-color: whitesmoke;
+        padding: 0.25vw;
+        width: 5.75vw;
+        height: 5.75vw;
+        border-radius: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: darkblue;
+    }
+}

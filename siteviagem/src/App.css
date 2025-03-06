@@ -1,0 +1,37 @@
+.carousel.slide {
+    text-align: center;
+    width: 100%;
+  
+    .carousel-indicators {
+      margin-top: 5vh;
+      .active {
+        background-color: orangered;
+      }
+      button {
+        background-color: darkslategrey;
+      }
+    }
+
+    img {
+        width: 100vw;
+        height: 85vh;
+        object-fit: cover;
+        object-position: top;
+    }
+  
+    .carousel-control-next, .carousel-control-prev {
+      background-color: darkslategrey;
+      border-radius: 2em;
+      width: 2.5vw;
+      height: 5vh;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+
+  .Main{
+    article{
+        padding: 1.5vw;
+        text-align: center;
+    }
+  }

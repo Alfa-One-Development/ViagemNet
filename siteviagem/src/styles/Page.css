@@ -1,0 +1,14 @@
+.Page{
+    color: darkblue;
+
+    h1{
+        padding: 1em;
+    }
+
+    img {
+        width: 100vw;
+        height: 85vh;
+        object-fit: cover;
+        object-position: top;
+    }
+}
