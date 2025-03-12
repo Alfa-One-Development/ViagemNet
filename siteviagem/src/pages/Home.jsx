@@ -4,8 +4,6 @@ import Viagens from "../components/Viagens";
 
 import { Carousel } from "react-bootstrap";
 
-import Video from "../assets/videoplayback.mp4"
-
 import Lisboa from "../assets/Viagem1.webp"
 import Balneario from "../assets/Viagem2.jpg"
 import Indianapolis from "../assets/Viagem3.jpg"
@@ -22,7 +20,7 @@ function Home() {
       <section className="Main">
         <Carousel >
           <Carousel.Item>
-            <iframe src="https://www.youtube.com/embed/vwon_RDHylA?autoplay=1&loop=1&playlist=vwon_RDHylA&controls=0&rel=0&showinfo=0&modestbranding=1&iv_load_policy=3"
+            <iframe src="https://www.youtube.com/embed/vwon_RDHylA?autoplay=1&loop=1&playlist=vwon_RDHylA&controls=0&rel=0&showinfo=0&"
               title="YouTube video player"
               frameborder="0"
               allow="autoplay; encrypted-media"

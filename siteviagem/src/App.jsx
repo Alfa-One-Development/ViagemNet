@@ -5,6 +5,7 @@ import LisboaPage from './pages/Lisboa';
 import NovaDeliPage from './pages/NovaDeli';
 import IndianapolisPage from './pages/Indianapolis';
 import LuandaPage from './pages/Luanda';
+import SecretPage from './pages/Secret';
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/novadeli" element={<NovaDeliPage />} />
           <Route path="/indianapolis" element={<IndianapolisPage />} />
           <Route path="/luanda" element={<LuandaPage />} />
+          <Route path="/secret" element={<SecretPage/>} />
         </Routes>
       </BrowserRouter>
     </>
