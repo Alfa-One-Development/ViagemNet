@@ -45,7 +45,7 @@ const [active, setActive] = useState(false);
                 </li>
                 <li>
                     <button onClick={() => setActive(true)}>
-                        <h3>{active ? "🚶‍♂️" : "👨‍🦽" }</h3>
+                        <h3>{active ? "🏃‍♂️" : "👨‍🦽" }</h3>
                         <h6>{active ? "Logged" : "Sign in"}</h6>
                     </button>
                 </li>
