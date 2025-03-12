@@ -17,9 +17,8 @@ function Home() {
   return (
     <>
       <Header/>
-
       <section className="Main">
-      <Carousel>
+      <Carousel >
             <Carousel.Item>
               <img
                 src={Balneario}

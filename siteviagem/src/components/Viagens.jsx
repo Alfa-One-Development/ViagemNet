@@ -12,7 +12,7 @@ function Viagens() {
             location: "/lisboa",
             nome: "Lisboa",
             img: Lisboa,
-            price: "R$ 1.500,00",
+            price: "R$ 2.400,00",
             avaliation: "⭐⭐⭐",
             description: "Capital de Portugal, com uma rica herança cultural, encantadoras ruas de paralelepípedos e pontos turísticos como a Torre de Belém e o Mosteiro dos Jerónimos"
         },
@@ -21,7 +21,7 @@ function Viagens() {
             location: "/novadeli",
             nome: "Nova Deli",
             img: Novadeli,
-            price: "R$ 1.500,00",
+            price: "R$ 1.120,00",
             avaliation: "⭐★★",
             description: "Capital da Índia, conhecida pela mistura vibrante de história, cultura e modernidade, com monumentos como o Taj Mahal e uma vida urbana intensa"
         },
@@ -30,7 +30,7 @@ function Viagens() {
             location: "/indianapolis",
             nome: "Indianápolis",
             img: Indianapolis,
-            price: "R$ 1.500,00",
+            price: "R$ 2.200,00",
             avaliation: "⭐⭐⭐",
             description: "Capital do estado de Indiana, nos EUA, conhecida pelo circuito de corridas Indianapolis 500, com uma forte cena esportiva e uma cidade vibrante e em crescimento"
         },
@@ -48,7 +48,7 @@ function Viagens() {
             location: "/balneario",
             nome: "Balneário Camburiú",
             img: Balneario,
-            price: "R$ 1.500,00",
+            price: "R$ 750,00",
             avaliation: "⭐⭐★",
             description: "Cidade litorânea no sul do Brasil, famosa pelas suas praias, arranha-céus à beira-mar e vida noturna agitada"
         }

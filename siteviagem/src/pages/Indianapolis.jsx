@@ -95,29 +95,30 @@ function IndianapolisPage() {
 
         <article className="HoteisCards">
           <Hotel
-            nome="Hotel Palmas Execultivo"
+            nome="The Alexander"
             image={Hotel1}
-            hobby="A partir de R$376,00 por noite"
-            avaliacao="⭐⭐⭐⭐★"
-          ></Hotel>
-          <Hotel
-            nome="Hotel Mercure"
-            image={Hotel2}
-            hobby="A partir de R$482,00 por noite"
-            avaliacao="⭐⭐★★★"
-          ></Hotel>
-          <Hotel
-            nome="Hotel Plaza Camboriu"
-            image={Hotel3}
-            hobby="A partir de R$648,00 por noite"
-            avaliacao="⭐⭐⭐★★"
-          ></Hotel>
-          <Hotel
-            nome="Hotel Plaza Camboriu"
-            image={Hotel4}
-            hobby="A partir de R$860,00 por noite"
+            hobby="$150.00"
             avaliacao="⭐⭐⭐⭐⭐"
-          ></Hotel>
+          />
+          <Hotel
+            nome="JW Marriott Indianapolis"
+            image={Hotel2}
+            hobby="$190.00"
+            avaliacao="⭐⭐⭐⭐☆"
+          />
+          <Hotel
+            nome="Indianapolis Marriott Downtown"
+            image={Hotel3}
+            hobby="$170.00"
+            avaliacao="⭐⭐⭐⭐⭐"
+          />
+          <Hotel
+            nome="Drury Plaza Hotel Indianapolis"
+            image={Hotel4}
+            hobby="$130.00"
+            avaliacao="⭐⭐⭐⭐☆"
+          />
+
         </article>
       </section>
 

@@ -65,14 +65,14 @@ function LuandaPage() {
             O que fazer: Explorar as exposições sobre a vida selvagem e aprender sobre os ecossistemas angolanos.
           </li>
           <li><strong>Mercado de Benfica: </strong>
-            
+
             Outro mercado famoso em Luanda, o Mercado de Benfica é ideal para quem deseja conhecer a vida cotidiana dos locais e comprar uma variedade de produtos, como frutas, legumes, roupas e artesanato.
 
             Preço: Acessível, com preços de produtos locais a partir de 100 AKZ.
             O que fazer: Passear pelos corredores do mercado e experimentar a comida local.
           </li>
           <li><strong>Restaurantes e Gastronomia: </strong>
-            
+
             Luanda é famosa pela sua gastronomia rica e variada, com pratos tradicionais que refletem a diversidade cultural do país. Entre os pratos que você não pode deixar de provar estão:
 
             Muamba de Galinha (prato típico à base de frango com molho de amendoim e quiabo)
@@ -91,7 +91,7 @@ function LuandaPage() {
             Preço médio de uma bebida: Cerca de 1.000 a 3.000 AKZ por drink em bares e clubes.
           </li>
           <li><strong>Transportes: </strong>
-           
+
             Luanda tem uma infraestrutura de transportes variados. O sistema de táxis é bastante utilizado, e o preço das corridas pode variar de acordo com a distância.
 
             Preço médio de uma corrida de táxi: Entre 2.000 e 5.000 AKZ para trajetos curtos dentro da cidade.
@@ -100,30 +100,31 @@ function LuandaPage() {
         </ol>
 
         <article className="HoteisCards">
-        <Hotel
-            nome="Hotel Presidente Luanda"
+          <Hotel
+            nome="Hotel Epic Sana Luanda"
             image={Hotel1}
-            hobby="A partir de R$2150,00 por noite"
-            avaliacao="⭐⭐⭐⭐★"
-          ></Hotel>
-          <Hotel
-            nome="Palmeiras Suite Hotel"
-            image={Hotel2}
-            hobby="A partir de R$1851,00 por noite"
-            avaliacao="⭐⭐★★★"
-          ></Hotel>
-          <Hotel
-            nome="Protea Hotel Luanda"
-            image={Hotel3}
-            hobby="A partir de R$1369,00 por noite"
-            avaliacao="⭐⭐⭐★★"
-          ></Hotel>
-          <Hotel
-            nome="Skyna Hotel Luanda"
-            image={Hotel4}
-            hobby="A partir de R$1085,00 por noite"
+            hobby="Kz 60.000,00"
             avaliacao="⭐⭐⭐⭐⭐"
-          ></Hotel>
+          />
+          <Hotel
+            nome="Hotel Presidente"
+            image={Hotel2}
+            hobby="Kz 45.000,00"
+            avaliacao="⭐⭐⭐⭐☆"
+          />
+          <Hotel
+            nome="Hotel Tropico"
+            image={Hotel3}
+            hobby="Kz 35.000,00"
+            avaliacao="⭐⭐⭐⭐⭐"
+          />
+          <Hotel
+            nome="Luanda Plaza Hotel"
+            image={Hotel4}
+            hobby="Kz 50.000,00"
+            avaliacao="⭐⭐⭐⭐☆"
+          />
+
         </article>
       </section>
 
