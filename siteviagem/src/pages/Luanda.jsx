@@ -1,6 +1,12 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer"
 
+import Hotel from "../components/Hotel";
+import Hotel1 from "../assets/hoteis1.jpg"
+import Hotel2 from "../assets/hoteis2.jpg"
+import Hotel3 from "../assets/hoteis3.jpg"
+import Hotel4 from "../assets/hoteis4.jpg"
+
 import Luanda from "../assets/Viagem5.jpg"
 
 import "../styles/Page.css"
@@ -15,7 +21,7 @@ function LuandaPage() {
       <section className="Page">
         <img src={Luanda} />
         <h1>Luanda</h1>
-        <p classname="SubTitle">Luanda é a capital de Angola e uma das cidades mais vibrantes da África. Localizada na costa atlântica, é um centro de negócios, cultura e história, com uma mistura única de modernidade e tradições angolanas. Para quem visita Luanda, há uma variedade de atrações turísticas, opções de lazer, gastronomia e cultura local.</p>
+        <p>Luanda é a capital de Angola e uma das cidades mais vibrantes da África. Localizada na costa atlântica, é um centro de negócios, cultura e história, com uma mistura única de modernidade e tradições angolanas. Para quem visita Luanda, há uma variedade de atrações turísticas, opções de lazer, gastronomia e cultura local.</p>
 
         <h4>O que fazer em Luanda:</h4>
 
@@ -93,8 +99,32 @@ function LuandaPage() {
           </li>
         </ol>
 
-        <p>
-        </p>
+        <article className="HoteisCards">
+        <Hotel
+            nome="Hotel Presidente Luanda"
+            image={Hotel1}
+            hobby="A partir de R$2150,00 por noite"
+            avaliacao="⭐⭐⭐⭐★"
+          ></Hotel>
+          <Hotel
+            nome="Palmeiras Suite Hotel"
+            image={Hotel2}
+            hobby="A partir de R$1851,00 por noite"
+            avaliacao="⭐⭐★★★"
+          ></Hotel>
+          <Hotel
+            nome="Protea Hotel Luanda"
+            image={Hotel3}
+            hobby="A partir de R$1369,00 por noite"
+            avaliacao="⭐⭐⭐★★"
+          ></Hotel>
+          <Hotel
+            nome="Skyna Hotel Luanda"
+            image={Hotel4}
+            hobby="A partir de R$1085,00 por noite"
+            avaliacao="⭐⭐⭐⭐⭐"
+          ></Hotel>
+        </article>
       </section>
 
       <Footer />

@@ -7,6 +7,7 @@ function Card({props}) {
             <img src={props.img} alt=""/>
             <h4>{props.nome}</h4>
             <p>Avaliacão: {props.avaliation}</p>
+            <p>Preço da Passagem: {props.price}</p>
             <p className="description">{props.description}</p>
           </Link>
     )

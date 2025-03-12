@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import BalnearioPage from './pages/Balneario';
 import LuandaPage from './pages/Luanda';
 import './App.css'
 
@@ -10,6 +11,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/balneario" element={<BalnearioPage />} />
       <Route path="/luanda" element={<LuandaPage />} />
     </Routes>
     </BrowserRouter>
