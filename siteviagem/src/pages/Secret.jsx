@@ -3,10 +3,15 @@ import Footer from "../components/Footer"
 
 import HelloKitty from "../assets/helokity.jpeg"
 
+import { useEffect } from "react";
 
 import "../styles/Page.css"
 
 function SecretPage() {
+
+    useEffect(() => {
+        document.title = `Página do Usuário - Trivago`;
+      }, []);
 
     return (
         <>

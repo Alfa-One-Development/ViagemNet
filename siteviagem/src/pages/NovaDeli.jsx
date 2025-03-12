@@ -9,10 +9,17 @@ import Hotel4 from "../assets/hoteis4.jpg"
 
 import Novadeli from "../assets/Viagem4.jpg"
 
+import { useEffect } from "react";
+
 import "../styles/Page.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function NovaDeliPage() {
+
+    useEffect(() => {
+        document.title = `Nova Deli - Trivago`;
+      }, []);
+
     return (
         <><Header />
 

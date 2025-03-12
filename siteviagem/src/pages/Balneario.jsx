@@ -9,11 +9,16 @@ import Hotel4 from "../assets/hoteis4.jpg"
 
 import Balneario from "../assets/Viagem2.jpg"
 
+import { useEffect } from "react";
 
 import "../styles/Page.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function BalnearioPage() {
+
+    useEffect(() => {
+        document.title = `Balneário Camburiú - Trivago`;
+      }, []);
 
     return (
         <>

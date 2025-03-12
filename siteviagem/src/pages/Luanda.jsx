@@ -9,10 +9,16 @@ import Hotel4 from "../assets/hoteis4.jpg"
 
 import Luanda from "../assets/Viagem5.jpg"
 
+import { useEffect } from "react";
+
 import "../styles/Page.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function LuandaPage() {
+
+  useEffect(() => {
+    document.title = `Luanda - Trivago`;
+  }, []);
 
   return (
     <>

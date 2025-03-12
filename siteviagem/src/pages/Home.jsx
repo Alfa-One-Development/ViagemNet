@@ -4,6 +4,8 @@ import Viagens from "../components/Viagens";
 
 import { Carousel } from "react-bootstrap";
 
+import { useEffect } from "react";
+
 import Lisboa from "../assets/Viagem1.webp"
 import Balneario from "../assets/Viagem2.jpg"
 import Indianapolis from "../assets/Viagem3.jpg"
@@ -13,6 +15,10 @@ import Luanda from "../assets/Viagem5.jpg"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
+
+  useEffect(() => {
+    document.title = `Trivago - Viagens e Turismo`;
+  }, []);
 
   return (
     <>

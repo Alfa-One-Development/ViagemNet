@@ -1,7 +1,5 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Lisboa from "../assets/Viagem1.webp"
-
 
 import Hotel from "../components/Hotel";
 import Hotel1 from "../assets/hoteis1.jpg"
@@ -9,10 +7,19 @@ import Hotel2 from "../assets/hoteis2.jpg"
 import Hotel3 from "../assets/hoteis3.jpg"
 import Hotel4 from "../assets/hoteis4.jpg"
 
+import Lisboa from "../assets/Viagem1.webp"
+
+import { useEffect } from "react";
+
 import "../styles/Page.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function LisboaPage() {
+
+    useEffect(() => {
+        document.title = `Lisboa - Trivago`;
+      }, []);
+
     return (
         <>
             <Header />

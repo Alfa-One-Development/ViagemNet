@@ -8,10 +8,17 @@ import Hotel2 from "../assets/hoteis2.jpg"
 import Hotel3 from "../assets/hoteis3.jpg"
 import Hotel4 from "../assets/hoteis4.jpg"
 
+import { useEffect } from "react";
+
 import "../styles/Page.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function IndianapolisPage() {
+
+  useEffect(() => {
+    document.title = `Indianapolis - Trivago`;
+  }, []);
+
   return (
     <>
       <Header />
