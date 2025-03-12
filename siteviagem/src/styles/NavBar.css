@@ -30,10 +30,19 @@ nav {
         background: none;
         text-decoration: none;
         color: darkblue;
+        width: 100%;
+        height: 100%;
     }
 
     a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
         text-decoration: none;
         color: darkblue;
+        width: 100%;
+        height: 100%;
     }
 }
