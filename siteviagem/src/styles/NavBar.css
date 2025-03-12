@@ -1,15 +1,16 @@
 nav {
+    width: 70%;
     background-color: darkcyan;
+
     ul {
         display: flex;
         flex-direction: row;
         list-style: none;
-        padding: 1vw;
         margin: 0;
     }
 
     li:hover{
-        background-color: aliceblue;
+        background-color: lightcyan;
     }
 
     li{
@@ -19,11 +20,16 @@ nav {
         margin-left: auto;
         margin-right: auto;
 
-        background-color: whitesmoke;
         padding: 0.25vw;
-        width: 6.5vw;
-        height: 6.5vw;
-        border-radius: 100%;
+        width: 5.25vw;
+        height: 5.25vw;
+    }
+
+    button{
+        border: none;
+        background: none;
+        text-decoration: none;
+        color: darkblue;
     }
 
     a {

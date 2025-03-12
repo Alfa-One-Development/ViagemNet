@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import "../styles/NavBar.css"
 function NavBar() {
+const [active, setActive] = useState(false);
+
     return (
         <nav>
             <ul>
@@ -39,6 +42,12 @@ function NavBar() {
                     <h3>🛺</h3>
                     <h6>Luanda</h6>
                     </Link>
+                </li>
+                <li>
+                    <button onClick={() => setActive(!active)}>
+                        <h3>{active ? "🚶‍♂️" : "👨‍🦽" }</h3>
+                        <h6>{active ? "Logado" : "Sign in"}</h6>
+                    </button>
                 </li>
             </ul>
         </nav>
