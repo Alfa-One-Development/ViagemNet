@@ -56,7 +56,7 @@ function Viagens() {
 
     return (
         <>
-            <h2 className="Passagens">Passagens Aéreas</h2>
+            <h1 className="Passagens">Passagens Aéreas</h1>
 
             <article className="Cards">
 
