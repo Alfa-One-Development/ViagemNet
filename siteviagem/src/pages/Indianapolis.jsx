@@ -1,8 +1,12 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Cards from "../components/Cards";
-
 import Indianapolis from "../assets/Viagem3.jpg";
+
+import Hotel from "../components/Hotel";
+import Hotel1 from "../assets/hoteis1.jpg"
+import Hotel2 from "../assets/hoteis2.jpg"
+import Hotel3 from "../assets/hoteis3.jpg"
+import Hotel4 from "../assets/hoteis4.jpg"
 
 import "../styles/Page.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -36,7 +40,7 @@ function IndianapolisPage() {
             relacionada ao automobilismo
           </li>
           <li>
-            <strong>Monument Circle </strong>
+            <strong>Monument Circle: </strong>
             Conheça o Soldiers and Sailors Monument, um marco icônico no coração
             da cidade. Suba até o topo para uma vista panorâmica de Indianápolis
           </li>
@@ -49,7 +53,7 @@ function IndianapolisPage() {
           </li>
 
           <li>
-            <strong>Indianapolis Museum of Art (Newfields) </strong>
+            <strong>Indianapolis Museum of Art (Newfields): </strong>
             Explore uma das maiores e mais antigas instituições de arte do país.
             O complexo também inclui jardins belíssimos e uma propriedade
             histórica.
@@ -87,69 +91,34 @@ function IndianapolisPage() {
             bicicletas. Caminhar é uma opção viável em áreas como o centro e
             Broad Ripple, que são mais compactas e pedestrian-friendly.
           </li>
-          <li>
-            <strong>Preços: </strong>
-            <ul>
-              <li>
-                <strong>Hotéis:</strong> US$100 a US$300 por noite (média)
-              </li>
-              <li>
-                <strong>Airbnb:</strong> Varia, alternativa mais acessível
-              </li>
-            </ul>
-
-            <h2>Alimentação</h2>
-            <ul>
-              <li>
-                <strong>Restaurantes econômicos:</strong> US$10 a US$20 por
-                pessoa
-              </li>
-              <li>
-                <strong>Restaurantes de médio porte:</strong> US$20 a US$40 por
-                pessoa
-              </li>
-              <li>
-                <strong>Restaurantes sofisticados:</strong> Acima de US$40 por
-                pessoa
-              </li>
-            </ul>
-
-            <h2>Transporte</h2>
-            <ul>
-              <li>
-                <strong>Aluguel de carros:</strong> Varia conforme o modelo e
-                duração
-              </li>
-              <li>
-                <strong>Transporte público (ônibus e IndyGo):</strong> Opção
-                econômica
-              </li>
-              <li>
-                <strong>Aplicativos de transporte (Uber, Lyft):</strong>{" "}
-                Amplamente utilizados
-              </li>
-            </ul>
-
-            <h2>Dicas para Economizar</h2>
-            <ul>
-              <li>Visite na baixa temporada</li>
-              <li>Aproveite atrações gratuitas</li>
-              <li>Use transporte público/aplicativos</li>
-              <li>Procure restaurantes com promoções</li>
-            </ul>
-
-            <h2>Informações Adicionais</h2>
-            <ul>
-              <li>
-                Bom custo-benefício em comparação com outras cidades dos EUA.
-              </li>
-              <li>Forbes Brasil destaca preços acessíveis.</li>
-              <li>Kayak auxilia na busca de voos e custos.</li>
-            </ul>
-          </li>
         </ol>
 
-        <p></p>
+        <article className="HoteisCards">
+          <Hotel
+            nome="Hotel Palmas Execultivo"
+            image={Hotel1}
+            hobby="A partir de R$376,00 por noite"
+            avaliacao="⭐⭐⭐⭐★"
+          ></Hotel>
+          <Hotel
+            nome="Hotel Mercure"
+            image={Hotel2}
+            hobby="A partir de R$482,00 por noite"
+            avaliacao="⭐⭐★★★"
+          ></Hotel>
+          <Hotel
+            nome="Hotel Plaza Camboriu"
+            image={Hotel3}
+            hobby="A partir de R$648,00 por noite"
+            avaliacao="⭐⭐⭐★★"
+          ></Hotel>
+          <Hotel
+            nome="Hotel Plaza Camboriu"
+            image={Hotel4}
+            hobby="A partir de R$860,00 por noite"
+            avaliacao="⭐⭐⭐⭐⭐"
+          ></Hotel>
+        </article>
       </section>
 
       <Footer />
