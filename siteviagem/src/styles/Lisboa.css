@@ -44,3 +44,12 @@ h2{
         width: 20vw;
     }
 }
+
+.ul3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    li{
+        width: 20vw;
+    }
+}

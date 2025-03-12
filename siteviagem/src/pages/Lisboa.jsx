@@ -60,6 +60,26 @@ function Lisboa() {
                 </li>
             </ul>
 
+            <h3>Hoteis Em Lisboa</h3>
+            <ul className='ul3'>
+                <li>
+                Corpo Santo Lisbon Historical Hotel
+                Preço das diárias: a partir de R$ 1.400
+                </li>
+                <li>
+                Hotel da Baixa
+                Preço das diárias: a partir de R$ 963
+                </li>
+                <li>
+                Lisboa Pessoa Hotel
+                Preço das diárias: a partir de R$ 854
+                </li>
+                <li>
+                H10 Duque de Loulé
+                Preço das diárias: a partir de R$ 840
+                </li>
+            </ul>
+
 
             <center>
                 <Estrela />
