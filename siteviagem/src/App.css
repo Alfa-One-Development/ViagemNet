@@ -14,9 +14,9 @@
 
     img {
         width: 100vw;
-        height: 85vh;
+        height: 55vh;
         object-fit: cover;
-        object-position: top;
+        object-position: center;
     }
   
     .carousel-control-next, .carousel-control-prev {

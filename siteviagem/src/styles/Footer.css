@@ -3,3 +3,9 @@ footer{
     background-color: darkcyan;
     padding: 2.5vw;
 }
+
+li{
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
