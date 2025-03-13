@@ -4,7 +4,7 @@ import Viagens from "../components/Viagens";
 
 import { Carousel } from "react-bootstrap";
 
-import { useEffect } from "react";
+import Video from "../assets/videoplayback.mp4"
 
 import Lisboa from "../assets/Viagem1.webp"
 import Balneario from "../assets/Viagem2.jpg"
@@ -16,17 +16,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
 
-  useEffect(() => {
-    document.title = `Trivago - Viagens e Turismo`;
-  }, []);
-
   return (
     <>
       <Header />
       <section className="Main">
         <Carousel >
           <Carousel.Item>
-            <iframe src="https://www.youtube.com/embed/vwon_RDHylA?autoplay=1&loop=1&playlist=vwon_RDHylA&controls=0&rel=0&showinfo=0&"
+            <iframe src="https://www.youtube.com/embed/vwon_RDHylA?autoplay=1&loop=1&playlist=vwon_RDHylA&controls=0&rel=0&showinfo=0&modestbranding=1&iv_load_policy=3"
               title="YouTube video player"
               frameborder="0"
               allow="autoplay; encrypted-media"

@@ -31,6 +31,20 @@
 
   .Main{
     color: darkblue;
+    background-color: aliceblue;
+    article{
+        padding: 1.5vw;
+        text-align: center;
+    }
+
+    p{
+      text-align: justify;
+    }
+  }
+
+  .Maindark{
+    color: aliceblue;
+    background-color: darkblue;
     article{
         padding: 1.5vw;
         text-align: center;
